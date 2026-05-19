@@ -24,11 +24,9 @@ export default function App() {
         Sign Up
       </Link>
 
-      <Link href={{
-        pathname: "/subscriptions/[id]",
-        params: {id: "claude"}
-      }} className="mt-4 bg-primary px-4 py-2 rounded text-white">
+      <Link href="/subscriptions" className="mt-4 bg-primary px-4 py-2 rounded text-white">
         View All Subscriptions
+      </Link>
       </Link>
     </SafeAreaView>
   );
